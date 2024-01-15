@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527239012641",
+    "project_id": "findtoeat-3c23d",
+    "storage_bucket": "findtoeat-3c23d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527239012641:android:99459a04cbe1a33fff9e60",
+        "android_client_info": {
+          "package_name": "com.example.findtoeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527239012641-hnmtvph16cj45fd51bbctclcbp6o8fbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxxgh-Z5LgHHVyX1JUaFuTb8wbtEIgk7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527239012641-hnmtvph16cj45fd51bbctclcbp6o8fbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
