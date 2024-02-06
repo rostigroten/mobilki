@@ -23,6 +23,9 @@ public class Product {
         this.companyName = companyName;
     }
 
+    public Product() {
+    }
+
     public String getCompanyName() {
         return companyName;
     }
