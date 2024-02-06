@@ -12,11 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.findtoeat.model.Product;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHolder> {
 
     Context context;
-    ArrayList<Product> productArrayList;
+    private ArrayList<Product> productArrayList;
     public ProductAdapter(Context context, ArrayList<Product> productArrayList) {
         this.context = context;
         this.productArrayList = productArrayList;
@@ -29,6 +30,11 @@ public class ProductAdapter extends RecyclerView.Adapter<ProductAdapter.MyViewHo
         View v = LayoutInflater.from(context).inflate(R.layout.item,parent,false);
 
         return new MyViewHolder(v);
+    }
+
+    public void setFilteredList(ArrayList<Product> filteredList){
+        this.productArrayList = filteredList;
+        notifyDataSetChanged();
     }
 
     @Override

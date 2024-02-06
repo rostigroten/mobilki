@@ -9,7 +9,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import com.example.findtoeat.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Dialog.DialogListener{
 
 private ActivityMainBinding binding;
 
@@ -31,4 +31,7 @@ private ActivityMainBinding binding;
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
+    @Override
+    public void applySearch(String name, String companyName, int kiloCalories, int carbohydrates, int fats, int proteins) {
+    }
 }
